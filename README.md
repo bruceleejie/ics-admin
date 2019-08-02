@@ -9,3 +9,6 @@
 
 
 项目使用的外部插件有：element-ui，axios，vuedraggable，sass，echarts，font-awesome。
+
+
+页面显示的数据是我自己mock的，数据文件是：data.json；具体配置是在build/webpack.dev.conf.js文件中。
