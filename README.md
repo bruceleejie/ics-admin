@@ -6,3 +6,6 @@
 由于是自己独立开发前端工作，所以没有是eslint来规范代码（我个人觉得我的代码规范还是可以的，最起码不会出现a,b,c这种变量）。
 由于不需要做很多的数据存储，所以没有使用vuex。
 如果想了解vuex的使用可以看看我的另一个“vue-requests”的demo，里面有用到vuex来发送请求修改存储数据的例栗子。
+
+
+项目使用的外部插件有：element-ui，axios，vuedraggable，sass，echarts。
