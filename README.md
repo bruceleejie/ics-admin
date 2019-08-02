@@ -8,4 +8,4 @@
 如果想了解vuex的使用可以看看我的另一个“vue-requests”的demo，里面有用到vuex来发送请求修改存储数据的例栗子。
 
 
-项目使用的外部插件有：element-ui，axios，vuedraggable，sass，echarts。
+项目使用的外部插件有：element-ui，axios，vuedraggable，sass，echarts，font-awesome。
