@@ -1,0 +1,90 @@
+// 重写系统头部部分element样式
+
+// 颜色变量blue
+$backColor-head1: #275cc2;
+$backColor-head2: #0328aa;
+// 颜色变量black
+$backColor-dark: #1f2d3d;
+
+.indexContainer{
+    
+    .el-header{
+//      background: -webkit-linear-gradient($backColor-head1, $backColor-head2) !important; /* Safari 5.1 - 6.0 */
+//      background: -o-linear-gradient($backColor-head1, $backColor-head2) !important; /* Opera 11.1 - 12.0 */
+//      background: -moz-linear-gradient($backColor-head1, $backColor-head2) !important; /* Firefox 3.6 - 15 */
+//      background: linear-gradient($backColor-head1, $backColor-head2) !important;
+        background: $backColor-dark !important;
+        
+        ul{
+//          background: -webkit-linear-gradient($backColor-head1, $backColor-head2) !important; /* Safari 5.1 - 6.0 */
+//          background: -o-linear-gradient($backColor-head1, $backColor-head2) !important; /* Opera 11.1 - 12.0 */
+//          background: -moz-linear-gradient($backColor-head1, $backColor-head2) !important; /* Firefox 3.6 - 15 */
+//          background: linear-gradient($backColor-head1, $backColor-head2) !important;
+            background: $backColor-dark !important;
+            
+            li.el-menu-item{
+//              background: -webkit-linear-gradient($backColor-head1, $backColor-head2) !important; /* Safari 5.1 - 6.0 */
+//              background: -o-linear-gradient($backColor-head1, $backColor-head2) !important; /* Opera 11.1 - 12.0 */
+//              background: -moz-linear-gradient($backColor-head1, $backColor-head2) !important; /* Firefox 3.6 - 15 */
+//              background: linear-gradient($backColor-head1, $backColor-head2) !important;
+                background: $backColor-dark !important;
+                height: 72px;
+                line-height: 72px;
+                font-size: 16px;
+                
+                &.is-active{
+//                  color: #409EFF !important;
+//              border-bottom: 2px solid #409EFF !important;
+                }
+                &:hover{
+//                  color: #409EFF !important;
+                    border-bottom: 2px solid #FFFFFF !important;
+                }
+                
+            }
+            li.el-menu-item.is-active{
+                
+            }
+            li.el-submenu{
+//              background: -webkit-linear-gradient($backColor-head1, $backColor-head2) !important; /* Safari 5.1 - 6.0 */
+//              background: -o-linear-gradient($backColor-head1, $backColor-head2) !important; /* Opera 11.1 - 12.0 */
+//              background: -moz-linear-gradient($backColor-head1, $backColor-head2) !important; /* Firefox 3.6 - 15 */
+//              background: linear-gradient($backColor-head1, $backColor-head2) !important;
+                background: $backColor-dark !important;
+                
+                div.el-submenu__title{
+//                  background: -webkit-linear-gradient($backColor-head1, $backColor-head2) !important; /* Safari 5.1 - 6.0 */
+//                  background: -o-linear-gradient($backColor-head1, $backColor-head2) !important; /* Opera 11.1 - 12.0 */
+//                  background: -moz-linear-gradient($backColor-head1, $backColor-head2) !important; /* Firefox 3.6 - 15 */
+//                  background: linear-gradient($backColor-head1, $backColor-head2) !important;
+                    background: $backColor-dark !important;
+                    height: 72px;
+                    line-height: 72px;
+                    font-size: 16px;
+                }
+                .spe-item.is-active{
+                    color: #FFFFFF !important;
+                }
+                a.is-active{
+//                  color: #409EFF !important;
+                }
+            }
+            li.el-submenu.is-active{
+//              color: #409EFF !important;
+                 div.el-submenu__title{
+//                    color: #409EFF !important;
+                 }
+            }
+        }
+    }
+}
+.el-menu--horizontal {
+//  background: #FFFFFF;
+//  color: #000000 !important;
+    ul {
+        min-width: 0px !important;
+        li {
+            color: #000000 !important;
+        }
+    }
+}
