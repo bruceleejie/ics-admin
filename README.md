@@ -9,7 +9,7 @@
 > 项目使用的外部插件有：element-ui，axios，vuedraggable，sass，echarts，font-awesome。
 
 3、页面显示的数据是我自己mock的，数据文件是：data.json；具体配置是在build/webpack.dev.conf.js文件中。
-> PS：如果想了解vuex的使用可以看看我的另一个“vue-requests”的demo，里面有用到vuex来发送请求修改存储数据的例栗子。
+> PS：如果想了解vuex的使用可以看看我的另一个“vue-requests”的demo，里面有用到vuex来发送请求修改存储数据的栗子。
 
 ## 二、demo功能点说明：
 1、登录（输入框的格式和长度校验）；
